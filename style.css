@@ -241,8 +241,12 @@ footer.site .wrap {
   border-radius: 6px;
   padding: 6px 12px;
 }
-.eu-badge svg { width: 40px; height: 27px; flex: none; }
-.eu-badge span { color: var(--navy); font-size: 12px; font-weight: 700; line-height: 1.2; max-width: 16ch; }
+.eu-badge img {
+  width: 190px;
+  height: auto;
+  display: block;
+  flex: none;
+}
 
 @media (max-width: 860px) {
   .hero .wrap, .grid-4, .grid-3, .grid-2, .contact-grid { grid-template-columns: 1fr; }
