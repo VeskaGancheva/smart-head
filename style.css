@@ -47,7 +47,7 @@ header.site {
   flex-wrap: wrap;
 }
 .brand { display: flex; align-items: center; }
-.brand img { height: 48px; width: auto; display: block; }
+.brand img { height: 58px; width: auto; display: block; }
 nav.main-nav { display: flex; gap: 22px; flex-wrap: wrap; }
 nav.main-nav a {
   color: var(--navy);
@@ -232,7 +232,7 @@ footer.site .wrap {
   display: flex;
   align-items: center;
 }
-.footer-brand .logo-panel img { height: 30px; }
+.footer-brand .logo-panel img { height: 38px; width: auto; display: block; }
 .eu-badge {
   display: flex;
   align-items: center;
@@ -242,7 +242,7 @@ footer.site .wrap {
   padding: 6px 12px;
 }
 .eu-badge img {
-  width: 190px;
+  width: 165px;
   height: auto;
   display: block;
   flex: none;
